@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "name": "John Doe",
+      "avatar": "https://i.ibb.co/CBCRL1R/people1.png"
+    },
+    "category": "Technology",
+    "image": "https://i.ibb.co/qFdCyc4/technology.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Future of Tech",
+    "description": "An overview of upcoming technology trends.",
+    "details": "In the realm of tech, AI is on the horizon as the next big thing. With advancements in machine learning and data processing, the possibilities are endless...",
+    "timeToRead": "5 mins"
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 2,
+      "name": "Jane Smith",
+      "avatar": "https://i.ibb.co/tCQJtWP/people2.png"
+    },
+    "category": "Health",
+    "image": "https://i.ibb.co/nc507S1/health1.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Wellness in Modern Times",
+    "description": "Staying healthy in the digital age.",
+    "details": "Our health can often take a back seat when life gets busy. Learn how modern technology can either harm or help our wellness and what steps you can take to prioritize your health...",
+    "timeToRead": "7 mins"
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 3,
+      "name": "Alice Green",
+      "avatar": "https://i.ibb.co/nLh32kW/people3.png.jpg"
+    },
+    "category": "Lifestyle",
+    "image": "https://i.ibb.co/VCV7mCn/lifestyle.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Sustainability in Daily Life",
+    "description": "Making green choices every day.",
+    "details": "Sustainability isn't just a buzzword, it's a lifestyle. Discover small changes you can make in your daily life to have a big impact on the environment...",
+    "timeToRead": "6 mins"
+  },
+  {
+    "id": 4,
+    "user": {
+      "id": 4,
+      "name": "Michael Ross",
+      "avatar": "https://i.ibb.co/CBCRL1R/people1.png"
+    },
+    "category": "Business",
+    "image": "https://i.ibb.co/dQCcZMX/business.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Economics in a Post-Pandemic World",
+    "description": "The changing face of global markets.",
+    "details": "The world after the pandemic has witnessed a series of economic shifts. Delve into deep analyses and understand the changing dynamics of global markets...",
+    "timeToRead": "8 mins"
+  },
+  {
+    "id": 5,
+    "user": {
+      "id": 5,
+      "name": "Samantha Lee",
+      "avatar": "https://i.ibb.co/CBCRL1R/people1.png"
+    },
+    "category": "Art & Culture",
+    "image": "https://i.ibb.co/P4shy7Z/art-And-Culture.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Renaissance Art: A Deep Dive",
+    "description": "Understanding the classics.",
+    "details": "The Renaissance was a golden age for art and culture. Dive deep into the masterpieces of this era and understand the stories they tell...",
+    "timeToRead": "9 mins"
+  },
+  {
+    "id": 6,
+    "user": {
+      "id": 6,
+      "name": "Bob Brown",
+      "avatar": "https://i.ibb.co/tCQJtWP/people2.png"
+    },
+    "category": "Travel",
+    "image": "https://i.ibb.co/bLxvL8p/travel1.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Best of Asia",
+    "description": "Exploring the wonders of Asia.",
+    "details": "Asia is a continent of diverse cultures and landscapes. From the bustling streets of Tokyo to the serene beaches of Bali, there's something for everyone...",
+    "timeToRead": "7 mins"
+  },
+  {
+    "id": 7,
+    "user": {
+      "id": 7,
+      "name": "John Doe",
+      "avatar": "https://i.ibb.co/nLh32kW/people3.png"
+    },
+    "category": "Technology",
+    "image": "https://i.ibb.co/c2KkDhf/technology2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Future of AI",
+    "description": "A look at the future of artificial intelligence.",
+    "details": "Artificial intelligence is a rapidly evolving field. From self-driving cars to virtual assistants, AI is changing the way we live and work. Learn about the latest developments in this exciting field...",
+    "timeToRead": "6 mins"
+  },
+  {
+    "id": 8,
+    "user": {
+      "id": 8,
+      "name": "Jane Smith",
+      "avatar": "https://i.ibb.co/CBCRL1R/people1.png"
+    },
+    "category": "Health",
+    "image": "https://i.ibb.co/HBYyvH9/health2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Importance of Sleep",
+    "description": "Why sleep is essential for your health.",
+    "details": "Sleep is a vital part of our lives, yet many people don't get enough. Learn about the importance of sleep and how it affects your health...",
+    "timeToRead": "5 mins"
+  },
+  {
+    "id": 9,
+    "user": {
+      "id": 9,
+      "name": "Alice Green",
+      "avatar": "https://i.ibb.co/tCQJtWP/people2.png"
+    },
+    "category": "Lifestyle",
+    "image": "https://i.ibb.co/y8zHTny/lifestyle2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Sustainable Living: A Guide",
+    "description": "How to live a more sustainable life.",
+    "details": "Sustainable living is a lifestyle that aims to reduce one's environmental impact. Learn about the benefits of sustainable living and how you can make small changes to live more sustainably...",
+    "timeToRead": "7 mins"
+  },
+  {
+    "id": 10,
+    "user": {
+      "id": 10,
+      "name": "Bob Brown",
+      "avatar": "https://i.ibb.co/tCQJtWP/people2.png"
+    },
+    "category": "Travel",
+    "image": "https://i.ibb.co/bLxvL8p/travel1.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Best of Asia",
+    "description": "Exploring the wonders of Asia.",
+    "details": "Asia is a continent of diverse cultures and landscapes. From the bustling streets of Tokyo to the serene beaches of Bali, there's something for everyone...",
+    "timeToRead": "7 mins"
+  },
+  {
+    "id": 11,
+    "user": {
+      "id": 11,
+      "name": "John Doe",
+      "avatar": "https://i.ibb.co/nLh32kW/people3.png"
+    },
+    "category": "Technology",
+    "image": "https://i.ibb.co/c2KkDhf/technology2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Future of AI",
+    "description": "A look at the future of artificial intelligence.",
+    "details": "Artificial intelligence is a rapidly evolving field. From self-driving cars to virtual assistants, AI is changing the way we live and work. Learn about the latest developments in this exciting field...",
+    "timeToRead": "6 mins"
+  },
+  {
+    "id": 12,
+    "user": {
+      "id": 12,
+      "name": "Jane Smith",
+      "avatar": "https://i.ibb.co/CBCRL1R/people1.png"
+    },
+    "category": "Health",
+    "image": "https://i.ibb.co/HBYyvH9/health2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "The Importance of Sleep",
+    "description": "Why sleep is essential for your health.",
+    "details": "Sleep is a vital part of our lives, yet many people don't get enough. Learn about the importance of sleep and how it affects your health...",
+    "timeToRead": "5 mins"
+  },
+  {
+    "id": 13,
+    "user": {
+      "id": 13,
+      "name": "Alice Green",
+      "avatar": "https://i.ibb.co/tCQJtWP/people2.png"
+    },
+    "category": "Lifestyle",
+    "image": "https://i.ibb.co/y8zHTny/lifestyle2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Sustainable Living: A Guide",
+    "description": "How to live a more sustainable life.",
+    "details": "Sustainable living is a lifestyle that aims to reduce one's environmental impact. Learn about the benefits of sustainable living and how you can make small changes to live more sustainably...",
+    "timeToRead": "7 mins"
+  },
+  {
+    "id": 14,
+    "user": {
+      "id": 14,
+      "name": "Bob Brown",
+      "avatar": "https://i.ibb.co/nLh32kW/people3.png"
+    },
+    "category": "Travel",
+    "image": "https://i.ibb.co/rG2YJsT/travel2.jpg",
+    "postDate": "August 20, 2022",
+    "title": "Off the Beaten Path: Europe",
+    "description": "Discovering hidden gems in Europe.",
+    "details": "Europe is filled with popular tourist destinations, but there are many hidden gems waiting to be discovered. Journey with us to explore the lesser-known spots that offer authentic experiences...",
+    "timeToRead": "8 mins"
+  }
+]

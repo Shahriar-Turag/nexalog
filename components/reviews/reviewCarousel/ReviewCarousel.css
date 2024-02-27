@@ -1,0 +1,24 @@
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px; /* adjust this as per your requirement */
+}
+
+.navigation-buttons button {
+	margin: 0 5px; /* gives spacing between the two buttons */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	display: none !important;
+}
