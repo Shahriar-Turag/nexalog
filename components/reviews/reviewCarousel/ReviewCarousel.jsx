@@ -11,10 +11,10 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 import Image from 'next/image';
 
-import people1 from '@/public/people1.png';
-import people2 from '@/public/people2.png';
-import people3 from '@/public/people3.png';
-import analysis from '@/public/analysis.png';
+import people1 from '../../../public/people1.png';
+import people2 from '../../../public/people2.png';
+import people3 from '../../../public/people3.png';
+
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 import {
 	Card,

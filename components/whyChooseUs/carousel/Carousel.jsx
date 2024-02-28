@@ -11,10 +11,10 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 import Image from 'next/image';
 
-import problem from '@/public/problemSolve.png';
-import person from '@/public/person.png';
-import group from '@/public/group.png';
-import analysis from '@/public/analysis.png';
+import problem from '../../../public/problemSolve.png';
+import person from '../../../public/person.png';
+import group from '../../../public/group.png';
+import analysis from '../../../public/analysis.png';
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 import {
 	Card,
