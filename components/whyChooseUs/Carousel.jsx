@@ -1,106 +1,106 @@
 'use client';
-import React, { useEffect, useRef, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import React, { useEffect, useRef, useState } from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import './Carousel.css';
 
-import { Pagination, Navigation } from 'swiper/modules';
+// import { Pagination, Navigation } from 'swiper/modules';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 
-import problem from '../../public/images/ProblemSolve.png';
-import person from '../../public/images/person.png';
-import group from '../../public/images/group.png';
-import analysis from '../../public/images/analysis.png';
-import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
-import {
-	Card,
-	CardDescription,
-	CardHeader,
-	CardTitle,
-} from '@/components/ui/card';
+// import problem from '../../public/images/ProblemSolve.png';
+// import person from '../../public/images/person.png';
+// import group from '../../public/images/group.png';
+// import analysis from '../../public/images/analysis.png';
+// import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
+// import {
+// 	Card,
+// 	CardDescription,
+// 	CardHeader,
+// 	CardTitle,
+// } from '@/components/ui/card';
 
-const serviceData = [
-	{
-		id: 1,
-		img: problem,
-		title: 'Full Spectrum Solutions',
-		description:
-			'From development to maintenance, we offer digital services under one roof',
-	},
-	{
-		id: 2,
-		img: group,
-		title: 'Experienced team',
-		description:
-			'Our skilled professionals  ensuring top-notch results every time',
-	},
-	{
-		id: 3,
-		img: analysis,
-		title: 'Proven Results',
-		description:
-			'We have helped numerous clients achieve online success through our strategic digital solutions',
-	},
-	{
-		id: 4,
-		img: person,
-		title: 'Client-Centric Results',
-		description:
-			'We are commiWe work closely with you, keeping you informed and involved at every step of the processtted to providing customized solutions that meet your business requirements',
-	},
-];
+// const serviceData = [
+// 	{
+// 		id: 1,
+// 		img: problem,
+// 		title: 'Full Spectrum Solutions',
+// 		description:
+// 			'From development to maintenance, we offer digital services under one roof',
+// 	},
+// 	{
+// 		id: 2,
+// 		img: group,
+// 		title: 'Experienced team',
+// 		description:
+// 			'Our skilled professionals  ensuring top-notch results every time',
+// 	},
+// 	{
+// 		id: 3,
+// 		img: analysis,
+// 		title: 'Proven Results',
+// 		description:
+// 			'We have helped numerous clients achieve online success through our strategic digital solutions',
+// 	},
+// 	{
+// 		id: 4,
+// 		img: person,
+// 		title: 'Client-Centric Results',
+// 		description:
+// 			'We are commiWe work closely with you, keeping you informed and involved at every step of the processtted to providing customized solutions that meet your business requirements',
+// 	},
+// ];
 
 export default function Carousel() {
-	const [slidesPerView, setSlidesPerView] = useState(1);
-	const [swiperRef, setSwiperRef] = useState(null);
-	const [lastClicked, setLastClicked] = useState('right');
+	// const [slidesPerView, setSlidesPerView] = useState(1);
+	// const [swiperRef, setSwiperRef] = useState(null);
+	// const [lastClicked, setLastClicked] = useState('right');
 
-	useEffect(() => {
-		// Function to update slidesPerView based on window width
-		function updateSlidesPerView() {
-			const screenWidth = window.innerWidth;
-			if (screenWidth >= 1024) {
-				setSlidesPerView(3);
-			} else if (screenWidth >= 768) {
-				setSlidesPerView(2);
-			} else {
-				setSlidesPerView(1);
-			}
-		}
+	// useEffect(() => {
+	// 	// Function to update slidesPerView based on window width
+	// 	function updateSlidesPerView() {
+	// 		const screenWidth = window.innerWidth;
+	// 		if (screenWidth >= 1024) {
+	// 			setSlidesPerView(3);
+	// 		} else if (screenWidth >= 768) {
+	// 			setSlidesPerView(2);
+	// 		} else {
+	// 			setSlidesPerView(1);
+	// 		}
+	// 	}
 
-		// Initial call to set the initial slidesPerView
-		updateSlidesPerView();
+	// 	// Initial call to set the initial slidesPerView
+	// 	updateSlidesPerView();
 
-		// Listen for window resize events and update slidesPerView
-		window.addEventListener('resize', updateSlidesPerView);
+	// 	// Listen for window resize events and update slidesPerView
+	// 	window.addEventListener('resize', updateSlidesPerView);
 
-		// Cleanup the event listener when the component unmounts
-		return () => {
-			window.removeEventListener('resize', updateSlidesPerView);
-		};
-	}, []);
+	// 	// Cleanup the event listener when the component unmounts
+	// 	return () => {
+	// 		window.removeEventListener('resize', updateSlidesPerView);
+	// 	};
+	// }, []);
 
-	const goNext = () => {
-		if (swiperRef) {
-			swiperRef.slideNext();
-		}
-		setLastClicked('right');
-	};
+	// const goNext = () => {
+	// 	if (swiperRef) {
+	// 		swiperRef.slideNext();
+	// 	}
+	// 	setLastClicked('right');
+	// };
 
-	const goPrev = () => {
-		if (swiperRef) {
-			swiperRef.slidePrev();
-		}
-		setLastClicked('left');
-	};
+	// const goPrev = () => {
+	// 	if (swiperRef) {
+	// 		swiperRef.slidePrev();
+	// 	}
+	// 	setLastClicked('left');
+	// };
 
 	return (
 		<>
-			<Swiper
+			{/* <Swiper
 				onSwiper={setSwiperRef}
 				slidesPerView={slidesPerView}
 				centeredSlides={true}
@@ -166,8 +166,8 @@ export default function Carousel() {
 							color: lastClicked === 'right' ? 'white' : 'black',
 						}}
 					/>
-				</button>
-			</div>
+				</button> */}
+			{/* </div> */}
 		</>
 	);
 }
