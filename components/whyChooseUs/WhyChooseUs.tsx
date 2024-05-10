@@ -41,12 +41,12 @@ const WhyChooseUs = (props: Props) => {
 					</p>
 				</div>
 			</motion.div>
-			<motion.div
+			{/* <motion.div
 				variants={fadeIn('left', 'tween', 0.2, 1)}
 				className='lg:w-[60%] w-full mb-20'
 			>
 				<Carousel />
-			</motion.div>
+			</motion.div> */}
 		</motion.div>
 	);
 };
