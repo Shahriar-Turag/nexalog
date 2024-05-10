@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Carousel from './carousel/Carousel';
+import Carousel from './Carousel';
 import { styles } from '@/constants/styles/styles';
 import Image from 'next/image';
 import object from '@/public/carouselObject.png';
