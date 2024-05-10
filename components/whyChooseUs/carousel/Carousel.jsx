@@ -14,7 +14,7 @@ import Image from 'next/image';
 import problem from '../../../public/images/ProblemSolve.png';
 import person from '../../../public/images/person.png';
 import group from '../../../public/images/group.png';
-import analysis from '../../../images/public/analysis.png';
+import analysis from '../../../public/images/analysis.png';
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 import {
 	Card,
